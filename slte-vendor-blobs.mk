@@ -42,8 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/slte/proprietary/vendor/firmware/bcm4350_V0301.0636_wisol.hcd:system/vendor/firmware/bcm4350_V0301.0636_wisol.hcd \
     vendor/samsung/slte/proprietary/lib/hw/camera.vendor.universal5430.so:system/lib/hw/camera.vendor.universal5430.so \
     vendor/samsung/slte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/slte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/slte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/slte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/slte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/slte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
