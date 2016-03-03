@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a8elte/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
     vendor/samsung/a8elte/proprietary/vendor/firmware/bcm4350_V0301.0634.hcd:system/vendor/firmware/bcm4350_V0301.0634.hcd \
     vendor/samsung/a8elte/proprietary/vendor/firmware/bcm4350_V0301.0636_wisol.hcd:system/vendor/firmware/bcm4350_V0301.0636_wisol.hcd \
-    vendor/samsung/a8elte/proprietary/lib/hw/camera.vendor.universal5430.so:system/lib/hw/camera.vendor.universal5430.so \
+    vendor/samsung/a8elte/proprietary/lib/hw/camera.universal5430.so:system/lib/hw/camera.universal5430.so \
     vendor/samsung/a8elte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/a8elte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/a8elte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -147,5 +147,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a8elte/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
     vendor/samsung/a8elte/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
     vendor/samsung/a8elte/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/samsung/a8elte/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
-
+    vendor/samsung/a8elte/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+# hw
+PRODUCT_COPY_FILES += \
+    vendor/samsung/a8elte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/a8elte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+    vendor/samsung/a8elte/proprietary/lib/hw/audio.primary.universal5430.so:system/lib/hw/audio.primary.universal5430.so \
+    vendor/samsung/a8elte/proprietary/lib/hw/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
+    vendor/samsung/a8elte/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
